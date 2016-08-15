@@ -1,0 +1,48 @@
+.wrapper {
+	width: 500px;
+	height: 150px;
+	outline: 1px solid red;
+
+}
+
+.wrapper .avatar {
+	float: left;
+	width: 150px;
+	height: 150px;
+	outline: 1px solid blue;
+}
+
+.wrapper .description {
+	float: left;
+	width: 200px;
+	height: 150px;
+	outline: 1px solid green;
+}
+
+.wrapper .description div {
+	float: left;
+	width: 200px;
+	height: 50px;
+	outline: 1px solid yellow;
+}
+
+.wrapper .image {
+	float: left;
+	width: 150px;
+	height: 150px;
+	outline: 1px solid purple;
+}
+
+.wrapper .image .theImage {
+	float: left;
+	height: 100px;
+	width: 150px;
+	outline: 1px solid brown;
+}
+
+.wrapper .image .theImageDescription {
+	float: left;
+	height: 50px;
+	width: 150px;
+	outline: 1px solid brown;
+}
