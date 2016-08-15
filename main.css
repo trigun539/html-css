@@ -1,8 +1,13 @@
+body, html {
+	background-color: #f2f6f9;
+}
+
 .wrapper {
+	margin: 100px;
 	width: 500px;
 	height: 150px;
-	outline: 1px solid red;
-
+	border: 1px solid #f5f7f9;
+	background-color: white;
 }
 
 .wrapper .avatar {
@@ -10,6 +15,18 @@
 	width: 150px;
 	height: 150px;
 	outline: 1px solid blue;
+	display: table-cell;
+	vertical-align: middle;
+	position: relative;
+}
+
+.wrapper .avatar img {
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
 
 .wrapper .description {
@@ -19,11 +36,20 @@
 	outline: 1px solid green;
 }
 
-.wrapper .description div {
+.wrapper .description > div {
 	float: left;
 	width: 200px;
 	height: 50px;
 	outline: 1px solid yellow;
+	color: #bbc1c9;
+}
+
+.wrapper .description > div > span {
+	font-weight: bold;
+}
+
+.wrapper .description > div > span {
+	font-weight: bold;
 }
 
 .wrapper .image {
@@ -45,4 +71,10 @@
 	height: 50px;
 	width: 150px;
 	outline: 1px solid brown;
+}
+
+@media (max-width: 600px) {
+	.wrapper {
+		border: 3px solid red;
+	}
 }
