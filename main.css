@@ -1,5 +1,17 @@
+
+
 body, html {
 	background-color: #f2f6f9;
+}
+
+/*** THEME 1 ***/
+
+.theme1 .wrapper {
+	background-color: gray;
+}
+
+.theme2 .wrapper {
+	background-color: green;
 }
 
 .wrapper {
